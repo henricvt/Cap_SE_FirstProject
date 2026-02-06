@@ -1,8 +1,5 @@
-*.elf
-*.eep
-*.o
-*.map
-*.hex
-*.lss
-*.srec
-*.mk
+Debug/*
+
+
+!Debug/*.hex
+!Debug/*.elf
